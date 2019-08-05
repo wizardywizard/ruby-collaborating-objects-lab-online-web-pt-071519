@@ -38,6 +38,7 @@ class Artist
   artist = self.new(name)
   @@all << artist
   artist
+  end
 end
 
 
