@@ -24,7 +24,7 @@ class Artist
     if  @artist 
      @artist.name
    else 
-     
+     @@all << name
    end
   end
   
