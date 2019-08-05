@@ -6,7 +6,7 @@ class Artist
     @name = name
   end
   
-  def Atrist.all 
+  def Artist.all 
     @@all
   end
   
