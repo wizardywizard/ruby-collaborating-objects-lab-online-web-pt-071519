@@ -8,6 +8,10 @@ class Artist
     @name = name
   end
   
+  def save
+    
+  end
+  
   def self.all 
     binding.pry
     @@all
@@ -37,7 +41,6 @@ class Artist
   
   def self.create(name)
    artist = self.new(name)
-   @@all << artist
    artist
   end
   
