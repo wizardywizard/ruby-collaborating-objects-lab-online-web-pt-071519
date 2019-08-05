@@ -6,7 +6,7 @@ class Artist
     @@all = []
   end
   
-  def Artist.all 
+  def self.all 
     @@all
   end
   
