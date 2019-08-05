@@ -43,7 +43,9 @@ class Artist
   
   def print_songs
     binding.pry
-    #puts @song.collect {|x| x.name} 
+    puts songs.each do |x| 
+      
+    end
   end
   
 end
