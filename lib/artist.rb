@@ -7,7 +7,7 @@ class Artist
   end
   
   def Atrist.all 
-    
+    @@all
   end
   
 end
