@@ -43,8 +43,8 @@ class Artist
   
   def print_songs
     binding.pry
-    puts songs.each do |x| 
-      
+    songs.each do |x| 
+      puts 
     end
   end
   
