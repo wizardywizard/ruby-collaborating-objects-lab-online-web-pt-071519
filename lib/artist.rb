@@ -24,7 +24,7 @@ class Artist
     if  @artist 
      @artist.name
    else 
-     self.name
+     self.create(name)
    end
   end
   
