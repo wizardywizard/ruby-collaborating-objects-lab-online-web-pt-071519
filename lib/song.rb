@@ -13,11 +13,7 @@ class Song
   end
   
   def self.find_or_create_by_name(name)
-    if  @artist 
-     @artist.name
-   else 
-     nil 
-   end
+    
   end
   
 end
