@@ -34,4 +34,28 @@ class Artist
     end
   end
   
+  def self.create(name)
+  
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
