@@ -41,8 +41,7 @@ class Artist
   end
   
   def print_songs
-    puts @song.collect do |x| x.name 
-    end
+    puts @song.collect {|x| x.name} 
   end
   
 end
